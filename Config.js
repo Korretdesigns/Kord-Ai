@@ -1,15 +1,12 @@
 global.settings = {
-    OWNER_NUMBERS: "2347013159244", // replace with your number
-    OWNER_NAME: 'Miracle', // desired name
-    BOT_NAME: "KORD", // desired name
+    OWNER_NUMBERS: "2347044056749",
+    OWNER_NAME: 'Daniel',
+    BOT_NAME: "Daniel",
     VERSION: 'V1.0.0',
-    SESSION_ID: '', //put your session id between ''
+    SESSION_ID: 'kord_ai-672926f30e8a886bcb5d8807',
     MONGO_DB_URL: 'mongodb+srv://miracle32669:Iyanu1234@cluster0.m7glm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
     WORK_MODE: "Public",
     TIME_ZONE: "Africa/Lagos",
-    ANTI_VIEWONCE: true,
-    AUTO_READ_STATUS: true,
-    ALWAYS_ONLINE: true,
     READ_ALL_MESSAGES: false,
     PREFIX: [".", "/", "!"],
     WELCOME_MESSAGE: "Hello! I'm KORD-AI, your friendly WhatsApp bot.",
@@ -27,6 +24,6 @@ global.settings = {
     WELCOME_MESSAGE: "👋 Welcome to the group! We're glad to have you here. 😊",
     DELETE_WA_LINKS: false,
     BAD_WORD_FILTER: true,
-    BAD_WORDS: ['badword1', 'badword2', 'fuck', 'bitch', 'hentai'],
-    ANTI_DELETE_ENABLED: true
+    BAD_WORDS: ['badword1', 'badword2'],
+    ANTI_DELETE_ENABLED: true // Add this line for anti-delete feature
 };
